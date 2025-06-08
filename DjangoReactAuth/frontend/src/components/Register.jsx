@@ -16,6 +16,9 @@ const Register = () => {
           <MyTextField label={"Email"} />
         </Box>
         <Box className={"itemBox"}>
+          <MyPassField label={"Password"} />
+        </Box>
+        <Box className={"itemBox"}>
           <MyPassField label={"Confirm password"} />
         </Box>
         <Box className={"itemBox"}>
